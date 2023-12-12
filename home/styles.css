@@ -1,0 +1,457 @@
+
+*{
+    padding: 0;
+     margin: 0;
+    }
+/* .mainbody{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.navbar{
+    width: 100%;
+    background-color:rgb(6, 6, 35);
+    height: 80px;
+ display: flex;
+}
+
+.navbar>div{
+    color: white;
+    gap: 10px;
+    margin: auto;
+     
+} */
+.navbar.sticky-xxl-top{
+    background-color:rgb(7, 7, 28);
+}
+.nav-link{
+    color: white;
+}
+
+.home{
+display: flex;
+width: 100%;
+margin-top: 100px;
+/* gap: 60px; */
+}
+.homeh{
+font-size: 40px;
+font-weight: 700;
+/* border: 1px solid green; */
+color: white;
+margin-left: 300px;
+width: 60%;
+margin-bottom: 50px;
+}
+.homehp{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-left: 300px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.homeimg{
+    /* border: 1px solid red; */
+    margin-left:150px;
+}
+.homebtn{
+    display: flex;
+    margin-left: 300px;
+    gap: 40px;
+}
+.homebutton{
+   background-color: rgb(31, 189, 37);
+    font-size: 16px;
+    font-weight: 300px;
+    width: 38%;
+    height: 48px;
+    border-radius: 6px;
+    color: black;
+    border: none;
+    outline: none;
+}
+.thirdbody{
+    display: flex;
+    width: 100%;
+    margin: auto;
+height: 600px;
+/* border: 1px solid red; */
+}
+
+.thirdimg{
+    margin-left: 180px;
+    /* border: 1px solid rgb(0, 255, 13); */
+}
+.thirddetail{
+    margin-left: 200px;
+    /* border: 1px solid rgb(0, 255, 13); */
+    margin-right: 200px;
+}
+.influ{
+    color: rgb(31, 189, 37);
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.influe{
+    font-size: 40px;
+    font-weight: 800px;
+    font-style: calc();
+    margin-bottom: 50px;
+}
+.influer{
+    color: gray;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid blue; */
+    height: 780px;
+}
+.footerfirst{
+    margin-left: 100px;
+    margin-top: 270px;
+}
+.blog{
+    color: rgb(31, 189, 37);
+     font-size: 22px;
+     font-weight: 400;
+}
+.blogcaption{
+    font-size: 40px;
+    font-weight: 600; 
+}
+.blogdetail{
+    color: rgb(135, 129, 129);
+    font-size: 18px;
+}
+.seeall{
+    height: 50px;
+    width: 28%;
+    color: black;
+    background-color: rgb(79, 209, 83);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.footersecond{
+    margin-top: 200px;
+    margin-left: 260px;
+    width: 70%;
+    /* border: 1px solid red; */
+    height: 500px;
+    display: flex;
+    gap: 108px;
+}
+.footerdetail{
+    width: 40%;
+    height: 500px;
+    border: 1px solid rgb(182, 175, 175);
+    border-radius: 10px;
+}
+.footerbutton{
+    margin-left: 20px; 
+    background-color: rgb(79, 209, 83);
+    color: white;
+    width: 24%;
+    height: 34px;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.footertext{
+    margin-left: 20px; 
+    margin-top: 2px;
+}
+
+.secnav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: rgb(79, 209, 83);
+}
+.connect{
+margin-left: 380px;
+color: white;
+margin-top:35px;
+}
+.socialmedia{
+    margin-left: 700px;
+    width: 40%;
+    /* margin: auto; */
+   justify-content: space-between;
+   margin-top:25px;
+}
+
+.endsection{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(191, 218, 209);
+}
+.endfirst{
+    display: flex;
+   width: 70%;
+   margin: auto;
+   /* margin-bottom: 10px; */
+   /* border: 1px solid red; */
+}
+.enddetail{
+    width: 38%
+}
+.endfirstfree{
+font-size: 36px;
+font-weight: 500;
+margin-top: 40px;
+}
+.freep{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+    color:rgb(140, 136, 136);
+}
+.enddetails{
+  margin-left: 80px;
+  margin-right: 100px;
+}
+.endfirstwho{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 45px; 
+}
+.lastone{
+   margin-top: 40px;
+   margin-top: 18px;  
+}
+.lastp{
+text-align: center;
+font-weight: 400;
+margin-bottom: 8px; 
+}
+.termsandconditions{
+    text-align: center;
+    color:rgb(140, 136, 136);
+    margin-bottom: 8px;
+}
+
+.secondbody{
+    height: 1000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white, rgb(192, 230, 216));
+}
+.secondfirst{
+    display: flex;
+    /* border: 1px solid blue; */
+    margin-bottom: 10px;
+    width: 80%;
+    margin: auto;
+    gap: 60px;
+    /* margin-top: 220px; */
+}
+.secondsecond{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+        width: 80%;
+        margin: auto;
+        gap: 60px;
+}
+.secondsec{
+    margin-top: 70px;
+    width: 40%;
+}
+.about{
+color: rgb(79, 209, 83);
+font-weight: 500;
+margin-bottom: 10px;
+}
+.aboutfirst{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.aboutfirstp{
+    color: rgb(135, 129, 129);
+    margin-bottom: 20px;
+}
+.aboutfirstli{
+    gap: 10px;
+    color: rgb(79, 209, 83);
+}
+.aboutfirstul{
+    margin-bottom: 10px;
+}
+.secondthir{
+    margin-top: 70px;
+}
+.thirfir{
+    font-size: 80px;
+    color: rgb(79, 209, 83);
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+.thirfirp{
+    font-size: 18px;
+    color: rgb(31, 30, 30);
+    margin-bottom: 20px;
+    font-weight: 550;
+    text-align: center;
+}
+.secondsecondh {
+      font-size: 18px; 
+      font-weight: 500;
+}
+.secondsecondp {
+    font-size: 16px; 
+    color: rgb(135, 129, 129);  
+}
+.secondsecondbody{
+    width: 20%;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    background: rgb(4, 1, 37);
+    }
+    .bubbles{
+        position: relative;
+        display: flex;
+    }
+    
+    .bubbles span{
+        position: relative;
+        width: 0.2px;
+        height: 0.2px;
+        background: rgb(255, 255, 255);
+        margin: 0 2px;
+        border-radius: 50%;
+        box-shadow:0 0 0 1px rgb(226, 226, 241) ,
+         0 0 2px rgb(193, 193, 196),
+          0 0 2px  rgb(179, 178, 178)  ;
+          animation: animate 15s linear infinite;
+          animation-duration: calc(150s/ var(--i));
+    }
+    .bubbles span.big{
+        position: relative;
+        width: 1px;
+        height: 1px;
+        animation: animate 5s linear infinite;
+        animation-duration: calc(505s/ var(--i));
+        /* background: rgb(198, 11, 11); */
+    }
+    .bubbles span.midium{
+      position: relative;
+      width: 0.6px;
+      height: 0.6px;
+      animation: animate 25s linear infinite;
+      animation-duration: calc(305s/ var(--i));
+      /* background: rgb(198, 11, 11); */
+    }
+    
+    @keyframes animate{
+        0%{
+            transform: translateY(100vh) scale(1);
+        }
+        100%{
+            transform:translateY(-30vh) scale(1);
+        }
+    }
+    
+    /* waves    */
+    
+      section{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+      }
+      section {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+    
+      }
+      section .waves {
+        position: absolute;
+        width: 100%;
+        height: 210px;
+        bottom: 0;
+        left: 0;
+        background: url(./img/wave-bot.png);
+        animation: animate1  10s linear  infinite ;
+         
+          }
+          section .waves::before{
+            content: '';
+            width: 100%;
+            height: 210px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: url(./img/wave-bot.png);
+            opacity: 0.3;
+            animation: animate2  10s linear  infinite ;
+          }
+    
+          section .waves::after{
+            content: '';
+            width: 100%;
+            height: 210px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: url(./img/wave-bot.png);
+            opacity: 0.5;
+            animation-delay: -5s;
+            animation: animate1  20s linear  infinite ;
+          }
+          @keyframes animate1{
+            0%{
+                background-position: 0;
+            }
+            100%{
+                background-position: 1930px;
+            }
+          }
+    
+          @keyframes animate2{
+            0%{
+                background-position: 1930px;
+            }
+            100%{
+                background-position: 0;
+            }
+          }
